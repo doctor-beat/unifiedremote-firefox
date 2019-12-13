@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layout onLaunch="launch" onVolumeUp="scroll_up" onVolumeDown="scroll_down" color="red">
+	<tabs>
+		<tab text="Browser"  color="red">
+          <grid>
+            <row>
+              <button icon="left" onTap="back" />
+              <button icon="docclose" onTap="close_tab" />
+              <button icon="right" onTap="forward" />
+            </row>
+            <row>
+              <button icon="docleft" onTap="previous_tab" />
+              <button icon="docnew" onTap="new_tab" />
+              <button icon="docright" onTap="next_tab" />
+            </row>
+            <row>
+              <button icon="web" onTap="address" />
+              <button icon="home" onTap="home" />
+              <button icon="search" onTap="find" />
+            </row>
+            <row>
+              <button icon="zoomout" onTap="zoom_out" />
+              <button icon="zoomnormal" onTap="zoom_normal" />
+              <button icon="zoomin" onTap="zoom_in" />
+            </row>
+            <row>
+              <button icon="down" onTap="scroll_down" />
+              <button icon="refresh" onTap="refresh" />
+              <button icon="up" onTap="scroll_up" />
+            </row>
+            <row>
+              <button text="Next" onTap="swifttab" />
+              <button text="Enter" onTap="space" />
+              <button text="Prev" onTap="tab" />
+            </row>
+          </grid>
+        </tab>
+		<tab text="Media" color="#0383DC">
+          <grid>
+	        <row>
+		        <button icon="vdown" onTap="volume_down" />
+		        <button icon="vmute" onTap="volume_mute" />
+		        <button icon="vup" onTap="volume_up" />
+	        </row>
+	        <row>
+		        <button icon="previous" onTap="previous" />
+	            <spacer />
+		        <button icon="next" onTap="next" />		
+	        </row>
+	        <row>	  
+		        <button icon="stop" onTap="stop" />
+		        <button icon="playpause" onTap="play_pause" weight="2"/>
+	        </row>
+            <row>
+		        <button icon="rwd" onTap="seekbacksec" />
+	            <spacer />
+		        <button icon="ff" onTap="seekfrwdsec" />
+            </row>
+            <row>
+		        <button icon="previous" onTap="seekbackperc" />
+		        <spacer />
+		        <button icon="next" onTap="seekfrwdperc" />
+            </row>
+            <row>
+		        <button icon="home" onTap="seekbegin" />
+		        <spacer />
+		        <button text="end" onTap="seekend" />
+            </row>
+          </grid>
+        </tab>
+</layout>
