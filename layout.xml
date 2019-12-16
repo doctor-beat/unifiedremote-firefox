@@ -29,9 +29,9 @@
               <button icon="up" onTap="scroll_up" />
             </row>
             <row>
-              <button text="Next" onTap="swifttab" />
-              <button text="Enter" onTap="space" />
-              <button text="Prev" onTap="tab" />
+              <button text="Prev" onTap="shifttab" />
+              <button text="Enter" onTap="enter" />
+              <button text="Next" onTap="tab" />
             </row>
           </grid>
         </tab>
