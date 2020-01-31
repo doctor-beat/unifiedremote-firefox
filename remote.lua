@@ -197,3 +197,50 @@ actions.seekend = function()
     keyboard.press("end");
 end
 
+---------------- Video Js stuff  -------
+
+actions.key_left = function()
+	keyboard.press("left");
+end
+
+actions.key_space = function()
+    keyboard.press("space");
+end
+
+actions.left_right = function()
+	keyboard.press("right");
+end
+
+actions.key_f = function()
+	keyboard.press("f"); 
+end
+
+actions.go1 = function()
+	keyboard.press("1"); 
+end
+actions.go2 = function()
+	keyboard.press("2"); 
+end
+actions.go3 = function()
+	keyboard.press("3"); 
+end
+actions.go4 = function()
+	keyboard.press("4"); 
+end
+actions.go5 = function()
+	keyboard.press("5"); 
+end
+actions.go6 = function()
+	keyboard.press("6"); 
+end
+actions.go7 = function()
+	keyboard.press("7"); 
+end
+actions.go8 = function()
+	keyboard.press("8"); 
+end
+actions.go9 = function()
+	keyboard.press("9"); 
+end
+
+

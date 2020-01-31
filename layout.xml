@@ -42,11 +42,6 @@
 		        <button icon="vmute" onTap="volume_mute" />
 		        <button icon="vup" onTap="volume_up" />
 	        </row>
-	        <row>
-		        <button icon="previous" onTap="previous" />
-	            <spacer />
-		        <button icon="next" onTap="next" />		
-	        </row>
 	        <row>	  
 		        <button icon="stop" onTap="stop" />
 		        <button icon="playpause" onTap="play_pause" weight="2"/>
@@ -66,6 +61,35 @@
 		        <spacer />
 		        <button text="end" onTap="seekend" />
             </row>
+          </grid>
+        </tab>
+		<tab text="Video Js" color="#990033">
+          <grid>
+	        <row>
+		        <button text="10%" onTap="go1" />
+		        <button text="20%" onTap="go2" />
+		        <button text="30%" onTap="go3" />
+	        </row>
+	        <row>
+		        <button text="40%" onTap="go4" />
+		        <button text="50%" onTap="go5" />
+		        <button text="60%" onTap="go6" />
+	        </row>
+	        <row>
+		        <button text="70%" onTap="go7" />
+		        <button text="80%" onTap="go8" />
+		        <button text="90%" onTap="go9" />
+	        </row>
+	        <row>
+		        <button icon="rwd" onTap="key_left" />
+		        <button icon="playpause" onTap="key_space" />
+		        <button icon="ff" onTap="key_right" />
+	        </row>
+	        <row>	  
+	            <spacer />
+                <button icon="fullscreen" onTap="key_f" />
+	            <spacer />
+	        </row>
           </grid>
         </tab>
 	</tabs>
