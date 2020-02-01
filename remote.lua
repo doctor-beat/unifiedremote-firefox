@@ -207,7 +207,7 @@ actions.key_space = function()
     keyboard.press("space");
 end
 
-actions.left_right = function()
+actions.key_right = function()
 	keyboard.press("right");
 end
 
