@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../VoiceMeeter/layout.xslt" ?>
 <layout onLaunch="launch" onVolumeUp="scroll_up" onVolumeDown="scroll_down" color="red">
 	<tabs>
 		<tab text="Browser"  color="red">
